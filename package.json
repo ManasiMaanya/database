@@ -9,6 +9,7 @@
     "start": "node server/index.js",
     "dev": "node --watch server/index.js",
     "test": "node scripts/smoke-test.js",
+    "db:check": "node scripts/check-db.js",
     "db:load": "node scripts/load-sql.js",
     "db:auth": "node scripts/gen-auth-sql.js"
   },
