@@ -4,7 +4,7 @@ A hospital surgery planner built on the database designed in **Review 1** (ER mo
 **Review 2** (MySQL schema). This repository adds the missing piece: an **Express + MySQL
 backend** and a **single-page frontend** that reads and writes the real database.
 
-The database is the source of truth. Scheduling rules — no double-booked surgeons,
+The database is the source of truth. Scheduling rules —no double-booked surgeons,
 theatres, beds, nurses or equipment; no skipped pre-operative steps; no circular
 dependencies; a surgery cannot be marked *Ready* while anything blocks it — are enforced
 by **MySQL triggers and views**, not by JavaScript. The API is a thin layer over them, so
